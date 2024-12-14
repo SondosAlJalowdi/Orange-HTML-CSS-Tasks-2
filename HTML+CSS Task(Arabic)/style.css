@@ -1,0 +1,62 @@
+body {
+    direction: rtl;
+    font-family: 'Cairo' sans-serif;
+    
+}
+.cairo {
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+.right-container {
+    float: right;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.left-container {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+
+.user-info {
+    float: right;
+}
+
+.user-info>p {
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.viewed-section {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.horizontal-row {
+    text-align: center;
+}
+
+.earth-img-container {
+    clear: right;
+    width: 45%;
+}
+.user-img{
+    float: right; 
+    padding-top: 10px;
+}
+div.viewed-section>img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.viewed-section>p {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
